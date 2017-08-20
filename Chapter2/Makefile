@@ -6,7 +6,7 @@ CC = gcc
 # target: all--does nothing (DEFAULT)
 .PHONY : all
 all :
-	@echo "Nothing here... try `make help` for targets"
+	@echo "Nothing here... try 'make help' for targets"
 
 # target: mesg--build the mesg program
 mesg : $(OBJECTS)
