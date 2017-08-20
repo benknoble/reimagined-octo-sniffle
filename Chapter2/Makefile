@@ -1,10 +1,10 @@
 # Makefile for a simple program outputting a message
 OBJECTS = main.o
 EXE = mesg.exe
-COMP = gcc
+CC = gcc
 
 mesg : $(OBJECTS)
-	$(COMP) -o $(EXE) $(OBJECTS)
+	$(CC) -o $(EXE) $(OBJECTS)
 
 .PHONY : clean
 clean :
