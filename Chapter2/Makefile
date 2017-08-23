@@ -1,7 +1,7 @@
 # Makefile for a simple program outputting a message
 OBJECTS = main.o
 EXE = mesg.exe
-CC = gcc
+CC = gcc-7 -Wall -Wextra
 
 # target: all--does nothing (DEFAULT)
 .PHONY : all
